@@ -22,6 +22,14 @@
         <tag>HEAD</tag>
     </scm>
 
+    <distributionManagement>
+        <site>
+            <id>GitHub.pages</id>
+            <name>GitHub Pages</name>
+            <url>scm:git:ssh://git@github.com/lruiz/testrelease.git</url>
+        </site>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
